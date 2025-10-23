@@ -1,7 +1,7 @@
 services:
   - type: web
     name: hosting-render
-    repo: https://github.com/jmooring/hosting-render
+    repo: https://github.com/jeffgerhard/hugo-quick-start
     runtime: static
     buildCommand: chmod a+x build.sh && ./build.sh
     staticPublishPath: public
